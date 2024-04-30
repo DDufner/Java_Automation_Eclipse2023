@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;Intro_w_2023&apos;&#x0A;- Original project: &apos;Intro_w_2023&apos;&#x0A;- Original elements:&#x0A;     Intro_w_2023/src/org.openqa.selenium.chrome&#x0A;     org.openqa.selenium.chrome.ChromeDriver.java" description="Delete elements" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;org.openqa.selenium.chrome" element2="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;org.openqa.selenium" element3="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;org.openqa" element4="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;org" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1714045842355" subPackages="false" version="1.0"/>
+</session>

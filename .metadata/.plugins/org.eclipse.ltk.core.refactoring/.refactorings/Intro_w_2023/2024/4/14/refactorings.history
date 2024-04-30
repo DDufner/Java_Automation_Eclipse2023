@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;numberOfNeededItems&apos; in &apos;Shopping_Kart.main(...)&apos; to &apos;numberOfItemsFound&apos;&#x0A;- Original project: &apos;Intro_w_2023&apos;&#x0A;- Original element: &apos;Shopping_Kart.main(String[]).numberOfNeededItems&apos;&#x0A;- Renamed element: &apos;numberOfNeededItems&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;numberOfNeededItems&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;{Shopping_Kart.java[Shopping_Kart~main~\[QString;@numberOfNeededItems!949!976!953!971!I!0!false" name="numberOfItemsFound" references="true" stamp="1712151708804" version="1.0"/>
+</session>

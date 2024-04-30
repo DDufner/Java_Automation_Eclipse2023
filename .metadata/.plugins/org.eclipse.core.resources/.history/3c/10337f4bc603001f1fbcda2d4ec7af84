@@ -1,0 +1,29 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class actionsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "/Users/dominickdufner/Coding/eclipse-2023-workspace/chromedriver");
+		WebDriver driver = new ChromeDriver(); 
+		driver.get("https://www.google.com/");
+		driver.findElement(By.xpath("//textarea[@title='Search']")).sendKeys("amazon.com"); 
+		driver.findElement(By.xpath("//input[@value='Google Search']")).click();
+		driver.get("https://www.amazon.com/"); 
+		
+		Actions action = new Actions(driver);
+		driver.manage().window().maximize();
+		WebElement moveToAccountList = (WebElement) driver.findElement(By.id("nav-link-accountList-nav-line-1"));
+		
+		action.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();	
+				
+		//action.moveToElement((WebElement) driver.findElement(By.id("nav-link-accountList-nav-line-1"))).build().perform();
+		action.moveToElement(moveToAccountList).contextClick().build().perform();
+		
+	}
+}
